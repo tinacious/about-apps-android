@@ -8,17 +8,17 @@ plugins {
 }
 
 android {
-    namespace = "com.tinaciousdesign.interviews.stocks"
+    namespace = "com.tinaciousdesign.aboutapps"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.tinaciousdesign.interviews.stocks"
+        applicationId = "com.tinaciousdesign.aboutapps"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.tinaciousdesign.interviews.stocks.HiltTestRunner"
+        testInstrumentationRunner = "com.tinaciousdesign.aboutapps.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
