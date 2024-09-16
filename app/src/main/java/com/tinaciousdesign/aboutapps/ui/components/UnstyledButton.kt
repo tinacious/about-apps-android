@@ -16,7 +16,6 @@ fun UnstyledButton(
     Button(
         colors = ButtonDefaults.buttonColors(
             containerColor = Color.Transparent,
-            contentColor = Color.Transparent,
         ),
         modifier = modifier,
         onClick = onClick,

@@ -2,7 +2,6 @@ package com.tinaciousdesign.aboutapps.ui.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,8 +22,10 @@ fun SearchInputView(currentValue: String, onSearch: (String) -> Unit) {
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
             .padding(
-                vertical = 20.dp,
-                horizontal = 14.dp,
+                top = 20.dp,
+                bottom = 8.dp,
+                start = 14.dp,
+                end = 14.dp,
             )
     ) {
         OutlinedTextField(
