@@ -16,11 +16,13 @@
 
 ### Dark mode
 
-![](./screenshots/01-list-dark.png)
-![](./screenshots/02-search-dark.png)
+![01-list-dark](https://github.com/user-attachments/assets/5ed81395-4958-41b3-a087-43d039924cb5)
+
+![02-search-dark](https://github.com/user-attachments/assets/b2cc4e20-4384-423a-8c08-c689f34b00f7)
 
 
 ### Light mode
 
-![](./screenshots/01-list-light.png)
-![](./screenshots/02-search-light.png)
+![01-list-light](https://github.com/user-attachments/assets/8d0eb542-e4c8-4266-a94f-3edb4e8c413e)
+
+![02-search-light](https://github.com/user-attachments/assets/97ead1fd-c51a-42f9-aa4f-1a580358133c)
