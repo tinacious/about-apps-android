@@ -24,6 +24,16 @@
     <string name="app_search_result_item_label_last_updated_at">Last updated</string>
     <string name="app_search_result_item_no_version_name">(no version name)</string>
 
+    <string name="app_search_sort_mode_label">Sort mode</string>
+    <string name="app_search_sort_mode_option_app_name">App name</string>
+    <string name="app_search_sort_mode_option_package_name">Package name</string>
+    <string name="app_search_sort_mode_option_installed_at">Installed at</string>
+    <string name="app_search_sort_mode_option_last_modified_at">Updated at</string>
+    <string name="app_search_sort_mode_option_filesize">File size</string>
+
+    <string name="app_search_sort_direction_asc">Ascending</string>
+    <string name="app_search_sort_direction_desc">Descending</string>
+
     <string name="about_screen_title">About</string>
     <string name="about_screen_message">This app was built by Tina Holly at <b>Tinacious Design</b>.</string>
 </resources>
