@@ -3,8 +3,11 @@ package com.tinaciousdesign.aboutapps.ui.screens.about
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -12,11 +15,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tinaciousdesign.aboutapps.R
 import com.tinaciousdesign.aboutapps.ui.components.UnstyledButton
 import com.tinaciousdesign.aboutapps.ui.icons.TinaciousDesignLogoIcon
+import com.tinaciousdesign.aboutapps.ui.theme.AboutAppsTheme
 import com.tinaciousdesign.aboutapps.utils.openExternalBrowser
 
 @Composable
@@ -54,6 +59,16 @@ fun AboutScreen() {
                 textAlign = TextAlign.Center,
                 fontSize = 17.sp,
             )
+        }
+    }
+}
+
+@Preview
+@Composable
+private fun Preview() {
+    AboutAppsTheme {
+        Surface {
+            AboutScreen()
         }
     }
 }
